@@ -36,4 +36,9 @@ html {
   letter-spacing: 4.06px;
   text-align: center;
   text-transform: uppercase;
+  cursor: default;
+}
+
+.page__title::after {
+  content: '*';
 }
