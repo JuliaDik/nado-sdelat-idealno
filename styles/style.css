@@ -11,8 +11,8 @@ html {
 
 .page {
   position: relative;
-  min-height: 800px;
   height: 100%;
+  min-width: 800px;
 }
 
 .page__video {
