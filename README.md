@@ -11,4 +11,4 @@
 <h2>Ссылка на макет</h2>
 <a href="https://www.figma.com/file/8oKbCdYbLgfDehpQNJEoMS/%233-Надо-сделать-идеально?node-id=0%3A1&mode=dev">Открыть</a>
 <h2>Ссылка на проект</h2>
-<a href="">Открыть</a>
+<a href="https://juliadik.github.io/nado-sdelat-idealno/index.html">Открыть</a>
