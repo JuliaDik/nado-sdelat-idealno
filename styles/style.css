@@ -42,3 +42,22 @@ html {
 .page__title::after {
   content: '*';
 }
+
+.page__title:hover::before {
+  content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
+  position: absolute;
+  top: 182px;
+  right: 22px;
+  padding: 36px 44px;
+  max-width: 746px;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 1;
+  text-align: left;
+  text-transform: none;
+  white-space: pre;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 20px;
+  box-shadow: 0 12px 0 #000;
+}
