@@ -15,13 +15,13 @@ html {
   padding-top: 60px;
   min-width: 800px;
   height: 100%;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 /* overlay поверх body */
 .page::before {
   z-index: 1;
-  content: "";
+  content: '';
   position: absolute;
   inset: 0;
   background-color: rgb(255 255 255 / 0.3);
@@ -57,7 +57,7 @@ html {
 
 /* тултип, всплывающий блок с текстом */
 .page__title:hover::before {
-  content: "На самом деле нет.\AВажнее &mdash; научиться ошибаться.";
+  content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
   position: absolute;
   top: 180px;
   right: 20px;
@@ -78,6 +78,6 @@ html {
 
 /* звёздочка у заголовка */
 .page__title::after {
-  content: "*";
+  content: '*';
   position: relative;
 }
